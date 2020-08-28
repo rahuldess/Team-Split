@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/TeamSplit/precache-manifest.8e6220d3d2e5c12de83332335314daf5.js"
+  "/TeamSplit/precache-manifest.984e0d3f702cdfe414229b11839b73d1.js"
 );
 
 self.addEventListener('message', (event) => {
