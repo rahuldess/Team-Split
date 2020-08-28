@@ -108,7 +108,7 @@ class App extends Component {
         </Typography>
         <Divider light/>
 
-        <Box display="flex" justifyContent="center" alignItems="center" mt={4} mb={5} style={{ maxHeight: 400, overflow: 'auto' }}>
+        <Box display="flex" justifyContent="center" borderRight={1} borderLeft={1} mt={4} mb={5} style={{ maxHeight: 280, overflow: 'auto' }}>
           <div>
             {this.createCheckboxes()}
           </div>
