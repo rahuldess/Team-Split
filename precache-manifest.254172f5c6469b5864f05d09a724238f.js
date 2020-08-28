@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1fab65956dcf207154878c2d6f637c00",
+    "revision": "d1e720fe228d3feaf9a65fd59521c990",
     "url": "/TeamSplit/index.html"
   },
   {
-    "revision": "63579e3ce40051d9e379",
+    "revision": "d5afd0236225ef39dfc0",
     "url": "/TeamSplit/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TeamSplit/static/js/2.5f3ded6e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "63579e3ce40051d9e379",
-    "url": "/TeamSplit/static/js/main.5770e915.chunk.js"
+    "revision": "d5afd0236225ef39dfc0",
+    "url": "/TeamSplit/static/js/main.5bf6b68b.chunk.js"
   },
   {
     "revision": "9321195c1c56047cea00",
