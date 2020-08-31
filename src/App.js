@@ -10,30 +10,40 @@ import Typography from '@material-ui/core/Typography';
 import SportsSoccerIcon from '@material-ui/icons/SportsSoccer';
 import Box from '@material-ui/core/Box';
 import Divider from '@material-ui/core/Divider';
+import CircularProgress from '@material-ui/core/CircularProgress';
 
 import Checkbox from './Checkbox'
 import Teams from './Teams'
 import * as Util from './Util'
 
 const PLAYERS = [
-  { name: 'Aaditya', weight: 3, checked: false },
-  { name: 'Akshay', weight: 4, checked: false },
-  { name: 'Avi',     weight: 2, checked: false },
-  { name: 'Bharath', weight: 3, checked: false }, 
-  { name: 'Gourav', weight: 4, checked: false },
-  { name: 'Mohit',  weight: 3, checked: false },
-  { name: 'Nilesh', weight: 3, checked: false },
-  { name: 'Prabhanshu', weight: 2, checked: false },
-  { name: 'Rahul' ,  weight: 1, checked: false }, 
-  { name: 'Rohan', weight: 2, checked: false },
-  { name: 'Rohith', weight: 4, checked: false },
-  { name: 'Shiely', weight: 1, checked: false },
-  { name: 'Shriram', weight: 1, checked: false },
-  { name: 'Shreyas', weight: 2, checked: false },
-  { name: 'Shub', weight: 3, checked: false },
+  { name: 'Aaditya', weight: 4, checked: false },
+  { name: 'Aakash', weight: 2, checked: false },
+  { name: 'Akshay', weight: 5, checked: false },
+  { name: 'Amog', weight: 1, checked: false },
+  { name: 'Anas', weight: 4, checked: false },
+  { name: 'Atif', weight: 3, checked: false },
+  { name: 'Avi', weight: 3, checked: false },
+  { name: 'Bharath', weight: 4, checked: false }, 
+  { name: 'Deep', weight: 4, checked: false }, 
+  { name: 'Gourav', weight: 5, checked: false },
+  { name: 'Hardik', weight: 1, checked: false },
+  { name: 'Maddy',  weight: 4, checked: false },
+  { name: 'Mohit',  weight: 4, checked: false },
+  { name: 'Nilesh', weight: 4, checked: false },
+  { name: 'Prabhanshu', weight: 3, checked: false },
+  { name: 'Piyush', weight: 1, checked: false },
+  { name: 'Rahul' ,  weight: 2, checked: false }, 
+  { name: 'Rohan', weight: 3, checked: false },
+  { name: 'Rohith', weight: 5, checked: false },
+  { name: 'Sheily', weight: 2, checked: false },
+  { name: 'Shriram', weight: 2, checked: false },
+  { name: 'Shreyas', weight: 3, checked: false },
+  { name: 'Shub', weight: 4, checked: false },
+  { name: 'Taku', weight: 1, checked: false },
   { name: 'Theo', weight: 4, checked: false },
   { name: 'Vivi', weight: 3, checked: false },
-  { name: 'Zaid', weight: 3, checked: false }
+  { name: 'Zaid', weight: 4, checked: false }
 ]
 
 class App extends Component {
@@ -97,7 +107,7 @@ class App extends Component {
         </AppBar>
 
         <Box display="flex" justifyContent="center" alignItems="center" mb={2} mt={2}>
-          { Util.hasMinPlayersSelected(this.state) ?  <Teams totalPlayers={Util.selectedPlayers(this.state)} /> : null }
+          { Util.hasMinPlayersSelected(this.state) ? <Teams totalPlayers={Util.selectedPlayers(this.state)} /> : null }
         </Box>
 
         <Divider light/>
