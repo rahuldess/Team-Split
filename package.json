@@ -2,7 +2,7 @@
   "name": "teamsplit",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.rahulsambari.dev/teamsplit",
+  "homepage": "https://www.rahulsambari.dev",
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
