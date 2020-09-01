@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/teamsplit/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/teamsplit/static/js/main.e22865ee.chunk.js",
-    "main.js.map": "/teamsplit/static/js/main.e22865ee.chunk.js.map",
+    "main.js": "/teamsplit/static/js/main.e21f8854.chunk.js",
+    "main.js.map": "/teamsplit/static/js/main.e21f8854.chunk.js.map",
     "runtime-main.js": "/teamsplit/static/js/runtime-main.4e3adf74.js",
     "runtime-main.js.map": "/teamsplit/static/js/runtime-main.4e3adf74.js.map",
     "static/js/2.74940f19.chunk.js": "/teamsplit/static/js/2.74940f19.chunk.js",
     "static/js/2.74940f19.chunk.js.map": "/teamsplit/static/js/2.74940f19.chunk.js.map",
     "index.html": "/teamsplit/index.html",
-    "precache-manifest.a7fd2e3b0938a5141f327b2eab334da6.js": "/teamsplit/precache-manifest.a7fd2e3b0938a5141f327b2eab334da6.js",
+    "precache-manifest.f34986abd1355172e382ccd552c23e14.js": "/teamsplit/precache-manifest.f34986abd1355172e382ccd552c23e14.js",
     "service-worker.js": "/teamsplit/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/teamsplit/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.74940f19.chunk.js.LICENSE.txt": "/teamsplit/static/js/2.74940f19.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.4e3adf74.js",
     "static/js/2.74940f19.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.e22865ee.chunk.js"
+    "static/js/main.e21f8854.chunk.js"
   ]
 }
