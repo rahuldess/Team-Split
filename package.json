@@ -2,7 +2,7 @@
   "name": "teamsplit",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rahuldess.github.io/TeamSplit",
+  "homepage": "https://www.rahulsambari.dev/teamsplit",
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -14,8 +14,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "copy": "cp ./CNAME ./build/CNAME",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && yarn copy",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
