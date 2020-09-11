@@ -16,10 +16,17 @@ const useStyles = makeStyles({
   }
 });
 
+const StyledTableRow = withStyles((theme) => ({
+  root: {
+    '&:nth-of-type(odd)': {
+      backgroundColor: theme.palette.action.hover,
+    },
+  },
+}))(TableRow);
+
 const StyledTableCell = withStyles((theme) => ({
   head: {
-    backgroundColor: theme.palette.common.black,
-    color: theme.palette.common.white,
+    color: theme.palette.common.white
   },
   body: {
     fontSize: 14,
@@ -100,14 +107,14 @@ export default function Teams(totalPlayers) {
       <Table className={classes.table} size="small" aria-label="simple table">
         <TableHead>
           <TableRow>
-            <StyledTableCell>Team Red </StyledTableCell>
+            <StyledTableCell bgcolor="red">Team Red </StyledTableCell>
           </TableRow>
         </TableHead>
         <TableBody className={classes.tableBody}>
           {teamA.map((row) => (
-            <TableRow key={row.name}>
+            <StyledTableRow key={row.name}>
               <TableCell component="th" scope="row"> {row.name} </TableCell>
-            </TableRow>
+            </StyledTableRow>
           ))}
         </TableBody>
       </Table>
@@ -115,14 +122,14 @@ export default function Teams(totalPlayers) {
       <Table className={classes.table} size="small" aria-label="simple table">
         <TableHead>
           <TableRow>
-            <StyledTableCell>Team Blue </StyledTableCell>
+            <StyledTableCell bgcolor="blue">Team Blue </StyledTableCell>
           </TableRow>
         </TableHead>
         <TableBody className={classes.tableBody}>
           {teamB.map((row) => (
-            <TableRow key={row.name}>
+            <StyledTableRow key={row.name}>
               <TableCell component="th" scope="row"> {row.name} </TableCell>
-            </TableRow>
+            </StyledTableRow>
           ))}
         </TableBody>
       </Table>

@@ -17,9 +17,10 @@ import Teams from './Teams'
 import * as Util from './Util'
 
 const PLAYERS = [
-  { name: 'Aaditya', weight: 4, checked: false },
-  { name: 'Aakash', weight: 2, checked: false },
+  { name: 'Aady', weight: 4, checked: false },
+  { name: 'Adi', weight: 3, checked: false },
   { name: 'Akshay', weight: 5, checked: false },
+  { name: 'Amit', weight: 1, checked: false },
   { name: 'Amog', weight: 1, checked: false },
   { name: 'Anas', weight: 4, checked: false },
   { name: 'Atif', weight: 3, checked: false },
@@ -31,6 +32,7 @@ const PLAYERS = [
   { name: 'Maddy',  weight: 4, checked: false },
   { name: 'Mohit',  weight: 4, checked: false },
   { name: 'Nilesh', weight: 4, checked: false },
+  { name: 'Pavan', weight: 1, checked: false },
   { name: 'Prabhanshu', weight: 3, checked: false },
   { name: 'Piyush', weight: 1, checked: false },
   { name: 'Rahul' ,  weight: 2, checked: false }, 
@@ -40,8 +42,9 @@ const PLAYERS = [
   { name: 'Shriram', weight: 2, checked: false },
   { name: 'Shreyas', weight: 3, checked: false },
   { name: 'Shub', weight: 4, checked: false },
-  { name: 'Taku', weight: 1, checked: false },
+  { name: 'Sky', weight: 3, checked: false },
   { name: 'Theo', weight: 4, checked: false },
+  { name: 'Vineet', weight: 3, checked: false },
   { name: 'Vivi', weight: 3, checked: false },
   { name: 'Zaid', weight: 4, checked: false }
 ]
