@@ -18,12 +18,14 @@ import * as Util from './Util'
 
 const PLAYERS = [
   { name: 'Aady', weight: 4, checked: false },
+  { name: 'Adarsh', weight: 3, checked: false },
   { name: 'Adi', weight: 3, checked: false },
   { name: 'Akshay', weight: 5, checked: false },
   { name: 'Amit', weight: 1, checked: false },
   { name: 'Amog', weight: 1, checked: false },
   { name: 'Anas', weight: 4, checked: false },
   { name: 'Atif', weight: 3, checked: false },
+  { name: 'Arif', weight: 4, checked: false },
   { name: 'Avi', weight: 3, checked: false },
   { name: 'Bharath', weight: 4, checked: false }, 
   { name: 'Deep', weight: 4, checked: false }, 
